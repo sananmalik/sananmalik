@@ -73,10 +73,7 @@ My stack is centered on **.NET** — I live in C#, ASP.NET Core Web API, SQL Ser
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=sananmalik&show_icons=true&theme=github_dark&hide_border=true&count_private=true"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sananmalik&layout=compact&theme=github_dark&hide_border=true"/>
-</div>
+![GitHub Streak](https://streak-stats.demolab.com?user=sananmalik&theme=github-dark-blue&hide_border=true)
 
 ---
 
