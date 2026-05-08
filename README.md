@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi, I'm Sanan Malik
 
-<!--
-**sananmalik/sananmalik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Backend developer focused on:
+- C#
+- ASP.NET Core Web API
+- SQL Server
+- ADO.NET
+- OOP & SOLID Principles
 
-Here are some ideas to get you started:
+## Current Focus
+- Building scalable backend systems
+- Learning ASP.NET Core deeply
+- Exploring AI-powered applications
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects
+- Bank API
+- SmartLearn AI
+- Student Management MVC
+
+## Tech Stack
+C# | ASP.NET Core | SQL Server | Git | HTML | JavaScript
