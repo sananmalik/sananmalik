@@ -71,12 +71,6 @@ My stack is centered on **.NET** — I live in C#, ASP.NET Core Web API, SQL Ser
 
 ---
 
-## 📊 GitHub Stats
-
-![GitHub Streak](https://streak-stats.demolab.com?user=sananmalik&theme=github-dark-blue&hide_border=true)
-
----
-
 ## 🎯 Current Focus (2025–2026)
 
 - [ ] Deep dive into ASP.NET Core — middleware, auth, DI, EF Core
