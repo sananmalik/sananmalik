@@ -1,7 +1,5 @@
 <div align="center">
-Actually, let me just give you the full README code directly — it's a markdown file, best shown as a code block you can copy:
 
-markdown
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c853,100:1de9b6&height=120&section=header&text=Sanan%20Malik&fontSize=42&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
 </div>
