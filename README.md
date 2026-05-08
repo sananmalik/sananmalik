@@ -1,17 +1,3 @@
-
-Claude finished the response
-You said: code for better readme
-1778256965518_image.png
-code for better readme
-
-21:16
-Claude responded: Here's a significantly upgraded README.
-
-Check frontend design skill
-Check frontend design skill
-Here's a significantly upgraded README.md for your GitHub profile:
-
-markdown
 <div align="center">
 Actually, let me just give you the full README code directly — it's a markdown file, best shown as a code block you can copy:
 
@@ -38,7 +24,7 @@ markdown
 
 Backend developer in the making — currently a 2nd-year CS student at **MNS University of Agriculture, Multan**. I build clean, reliable APIs and care about writing code that actually makes sense six months later.
 
-My stack is centered on **.NET** — I live in C#, ASP.NET Core Web API, SQL Server, and ADO.NET. I'm grinding LeetCode, deepening my system design fundamentals, and aiming for a **fully funded MS in CS in the USA (Fall 2028)**.
+My stack is centered on **.NET** — I live in C#, ASP.NET Core Web API, SQL Server, and ADO.NET. I'm grinding LeetCode, deepening my system design fundamentals, and aiming for a Successfull Career.
 
 ---
 
@@ -100,9 +86,6 @@ My stack is centered on **.NET** — I live in C#, ASP.NET Core Web API, SQL Ser
 
 - [ ] Deep dive into ASP.NET Core — middleware, auth, DI, EF Core
 - [ ] LeetCode grind — targeting consistent problem solving
-- [ ] CGPA ≥ 3.7 — maintaining academic standing for MS apps
-- [ ] TOEFL 100+ iBT by June 2027
-- [ ] GRE 320+ by August 2027
 - [ ] Research experience — treating FYP as publishable work
 
 ---
@@ -114,7 +97,7 @@ My stack is centered on **.NET** — I live in C#, ASP.NET Core Web API, SQL Ser
 > University   : MNS University of Agriculture Multan
 > Degree       : BS Computer Science (2024–2028)
 > Focus        : Backend Development → .NET ecosystem
-> Long-term    : MS CS @ top US university, Fall 2028
+> Long-term    : ....................................
 > Principles   : OOP · SOLID · Clean Architecture
 ```
 
@@ -123,19 +106,3 @@ My stack is centered on **.NET** — I live in C#, ASP.NET Core Web API, SQL Ser
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1de9b6,100:00c853&height=80&section=footer" width="100%"/>
 </div>
-Key upgrades over your current README:
-
-Stats badges — two GitHub stat cards (activity + top languages) that update automatically
-Project descriptions — each project now has context, not just a name
-Current Focus as a checklist — recruiters and professors can see exactly where you are
-The "About Me" code block — clean, memorable, shows personality without rambling
-Consistent green accent throughout (matches your avatar color scheme)
-Waving header/footer via capsule-render (no image uploads needed, auto-generated)
-One thing to fix: your GitHub username in the stats URLs — replace sananmalik with your actual username if it's different (it shows as sananmalik in the screenshot so it should be fine).
-
-
-
-
-
-
-Claude is AI and can make mistakes. Please double-check responses.
