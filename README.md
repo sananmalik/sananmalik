@@ -18,6 +18,10 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Building+clean%2C+reliable+backends;ASP.NET+Core+%7C+SQL+Server+%7C+C%23;Aiming+for+MS+CS+in+the+US+%F0%9F%8E%AF"/>
 
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=sananmalik&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS)
+
 </div>
 
 <br>
@@ -114,19 +118,9 @@ var sanan = new Developer
 
 ---
 
-## 📊 GitHub Stats
+## 📈 Contribution Graph
 
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=sananmalik&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&rank_icon=github&include_all_commits=true&count_private=true"/>
-&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sananmalik&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=6"/>
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com?user=sananmalik&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8b949e&dates=8b949e"/>
-
-<br><br>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=sananmalik&theme=react-dark&bg_color=0D1117&color=58A6FF&line=1f6feb&point=58A6FF&area=true&hide_border=true"/>
 
