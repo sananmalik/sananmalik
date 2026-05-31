@@ -115,7 +115,7 @@ var sanan = new Developer
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sananmalik&theme=react-dark&bg_color=0D1117&color=58A6FF&line=1f6feb&point=58A6FF&area=true&hide_border=true"/>
+<img src="https://ghchart.rshah.org/58A6FF/sananmalik"/>
 
 </div>
 
