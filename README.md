@@ -1,158 +1,147 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:58A6FF&height=145&section=header&text=Sanan%20Malik&fontSize=46&fontColor=FFFFFF&fontAlignY=38&desc=Backend%20Developer%20%7C%20CS%20Student%20%7C%20ASP.NET%20Core&descSize=16&descAlignY=62&descColor=C9D1D9" alt="Sanan Malik profile banner" />
-
-### Building reliable backend systems with .NET
-
-I care about clean architecture, practical AI products, and code that survives version 2.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1f6feb,100:58A6FF&height=120&section=header&text=Sanan%20Malik&fontSize=42&fontColor=ffffff&fontAlignY=65&desc=Backend%20Developer%20%C2%B7%20CS%20Student%20%C2%B7%20Multan%2C%20PK&descSize=14&descAlignY=85&descColor=8b949e"/>
 
 <p>
-  <a href="https://linkedin.com/in/sanan-malik-9a4412325">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/sananmalik">
-    <img src="https://img.shields.io/github/followers/sananmalik?style=for-the-badge&logo=github&label=Followers&color=161B22" alt="GitHub followers" />
-  </a>
-  <a href="https://github.com/sananmalik?tab=repositories">
-    <img src="https://img.shields.io/badge/Projects-View%20Repos-238636?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repositories" />
-  </a>
+<a href="https://linkedin.com/in/sanan-malik-9a4412325">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="mailto:your@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+&nbsp;
+<img src="https://img.shields.io/badge/%F0%9F%9F%A2_Open_to_Opportunities-161b22?style=for-the-badge"/>
 </p>
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Building+clean%2C+reliable+backends;ASP.NET+Core+%7C+SQL+Server+%7C+C%23;Aiming+for+MS+CS+in+the+US+%F0%9F%8E%AF"/>
+
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=sananmalik&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS)
 
 </div>
 
+<br>
+
 ---
 
-## Quick Snapshot
+## 👨‍💻 About Me
 
 ```csharp
 var sanan = new Developer
 {
-    Role = "Backend Developer",
-    Education = "2nd Year BS Computer Science",
-    University = "MNS University of Agriculture, Multan",
-    CoreStack = new[] { "C#", "ASP.NET Core", "SQL Server", "ADO.NET", "EF Core" },
-    Interests = new[] { "Backend Architecture", "System Design", "AI Products" },
-    LongTermGoal = "Fully funded MS in Computer Science in the US, Fall 2028",
-    Motto = "I build things I'd want to maintain."
+    Name        = "Sanan Malik",
+    Role        = "Backend Developer",
+    University  = "MNS University of Agriculture, Multan",
+    Year        = "2nd Year BS Computer Science",
+    Stack       = new[] { "C#", "ASP.NET Core", "SQL Server", "ADO.NET" },
+    CurrentGoal = "A Best Developer",
+    Motto       = "I build things I'd want to maintain."
 };
 ```
 
 ---
 
-## Tech Stack
+## ⚙️ Tech Stack
 
 <div align="center">
 
-### Backend
-
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![ADO.NET](https://img.shields.io/badge/ADO.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-
-### Frontend and Tools
+![Entity Framework](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
 </div>
 
 ---
 
-## Featured Projects
-
-### SentinelIQ
-
-**AI-powered enterprise web intelligence platform**
-
-SentinelIQ is built to monitor the live web for competitor activity, market movement, and risk signals, then turn that data into structured business intelligence.
-
-**What it does**
-
-- Tracks competitor updates, pricing changes, launches, and market signals
-- Uses AI to summarize business movement and surface risk indicators
-- Integrates OpenAI, Bright Data, ASP.NET Core, and Next.js
-- Follows a layered backend structure with controllers, services, repositories, DTOs, and custom exceptions
-
-**Stack:** `ASP.NET Core` `EF Core` `SQL Server` `OpenAI API` `Bright Data` `Next.js` `TypeScript`
-
-**Status:** `Phase 1 Live`
-
----
-
-### Cognivex AI
-
-**Agent-based academic productivity platform**
-
-Cognivex AI helps students convert assignments into structured execution plans by analyzing uploaded work, extracting tasks, and generating study workflows.
-
-**What it does**
-
-- Accepts assignment input and extracts requirements, subtasks, and deadlines
-- Uses AI workflows to prioritize tasks and generate study plans
-- Connects a React frontend with an ASP.NET Core backend and SQL Server
-- Runs on a Vultr VPS behind Nginx
-
-**Stack:** `ASP.NET Core` `C#` `SQL Server` `Gemini API` `React` `Tailwind CSS` `Nginx`
-
-**Status:** `Deployed`
-
----
-
-### Banking System API
-
-**Production-style backend banking API**
-
-A backend-focused portfolio project built to practice realistic banking workflows, layered architecture, and direct database access with ADO.NET.
-
-**What it does**
-
-- Manages accounts, deposits, withdrawals, transfers, and transaction history
-- Uses custom exceptions for clear domain-specific errors
-- Keeps business logic separated through controller, service, and repository layers
-- Focuses on fundamentals without hiding database behavior behind an ORM
-
-**Stack:** `C#` `ASP.NET Core` `ADO.NET` `SQL Server`
-
-**Status:** `Portfolio`
-
----
-
-## Current Focus
-
-| Area | What I am working on | Target |
-| --- | --- | --- |
-| ASP.NET Core | Middleware, authentication, dependency injection, EF Core | Deep backend fluency |
-| Problem Solving | Consistent LeetCode practice from Easy to Hard | Strong DSA foundation |
-| Research | Treating final-year project work like publishable research | 2026 |
-| Graduate Study | Preparing for fully funded MS CS opportunities in the US | Fall 2028 |
-
----
-
-## GitHub Stats
+## 🚀 Featured Projects
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=sananmalik&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&rank_icon=github" alt="Sanan Malik GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sananmalik&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=6" alt="Sanan Malik top languages" />
+<a href="#">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sananmalik&repo=SentinelIQ&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"/>
+</a>
+&nbsp;
+<a href="#">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sananmalik&repo=CognivexAI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"/>
+</a>
 
-<br />
-<br />
+</div>
 
-<img src="https://streak-stats.demolab.com?user=sananmalik&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E" alt="Sanan Malik GitHub streak" />
+<br>
+
+### 🌐 SentinelIQ &nbsp; ![](https://img.shields.io/badge/Phase%201%20Live-1f6feb?style=flat-square)
+
+> AI-powered enterprise intelligence platform that monitors the live web for competitor activity, market movements, and risk signals — turning raw web data into structured, actionable business intelligence.
+
+- Tracks pricing changes, product launches, hiring trends, and customer sentiment in real time
+- OpenAI integration for automatic business summaries, market insights, and risk assessments
+- Bright Data scraping pipeline — SERP API, Web Scraper, Scraping Browser
+- Layered REST API: Controller → Service → Repository, clean DTOs, custom exceptions
+
+`ASP.NET Core` · `EF Core` · `SQL Server` · `OpenAI API` · `Bright Data` · `Next.js` · `TypeScript` · `Tailwind CSS`
+
+<br>
+
+### 🧠 Cognivex AI &nbsp; ![](https://img.shields.io/badge/Deployed-22c55e?style=flat-square) ![](https://img.shields.io/badge/Vultr%20VPS-007BFC?style=flat-square)
+
+> Agent-based academic productivity platform. Analyzes uploaded assignments, extracts tasks, prioritizes workloads, and generates structured study plans through autonomous AI workflows.
+
+- Accepts PDF, image, or plain text — extracts requirements, deadlines, and subtasks automatically
+- Autonomous Planning Agent divides work, estimates effort, generates study roadmaps
+- Production deployment on Vultr VPS behind Nginx reverse proxy
+- Full pipeline: Upload → Analysis → Extraction → Prioritization → Dashboard
+
+`ASP.NET Core` · `C#` · `SQL Server` · `Google Gemini API` · `React` · `Tailwind CSS` · `Nginx`
+
+<br>
+
+### 🏦 Banking System API &nbsp; ![](https://img.shields.io/badge/Portfolio-555555?style=flat-square)
+
+> Full banking backend built to practice layered architecture and OOP in a realistic production-style context. Raw SQL via ADO.NET — no ORM hiding what's actually happening.
+
+- Accounts, deposits, withdrawals, transfers, and full transaction history
+- Custom exception classes — meaningful errors instead of generic 500s
+- Strict Controller → Service → Repository separation throughout
+
+`C#` · `ASP.NET Core` · `ADO.NET` · `SQL Server`
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sananmalik&theme=react-dark&bg_color=0D1117&color=58A6FF&line=1f6feb&point=58A6FF&area=true&hide_border=true"/>
 
 </div>
 
 ---
 
+## 📌 Current Focus
+
+| | Goal | Target |
+|---|---|---|
+| 🔵 | .Net Developer | Ongoing |
+| 🟢 | LeetCode — consistent problem solving, Easy to Hard | Ongoing |
+| 🟡 | Research experience — treating FYP as publishable work | 2028 |
+
+---
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,55:1F6FEB,100:0D1117&height=90&section=footer" alt="Footer wave" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1f6feb,100:0D1117&height=80&section=footer"/>
 
-**"I build things I'd want to maintain."**
+<sub><code>"I build things I'd want to maintain."</code></sub>
 
 </div>
