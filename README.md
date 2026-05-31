@@ -109,15 +109,7 @@ var sanan = new Developer
 
 `C#` · `ASP.NET Core` · `ADO.NET` · `SQL Server`
 
----
 
-## 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sananmalik&bg_color=0D1117&color=58A6FF&line=58A6FF&point=ffffff&area_color=1f6feb&area=true&hide_border=true&custom_title=Sanan's%20Contribution%20Graph"/>
-
-</div>
 
 ---
 
