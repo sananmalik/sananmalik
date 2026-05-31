@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
-<a href="mailto:your@gmail.com">
+<a href="mailto:iamsanan50@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 &nbsp;
@@ -16,7 +16,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Building+clean%2C+reliable+backends;ASP.NET+Core+%7C+SQL+Server+%7C+C%23;Aiming+for+MS+CS+in+the+US+%F0%9F%8E%AF"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Building+clean%2C+reliable+backends;ASP.NET+Core+%7C+SQL+Server+%7C+C%23;Aiming+for+A+Best+Developer+%F0%9F%8E%AF"/>
 
 <br>
 
