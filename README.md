@@ -31,15 +31,15 @@
 ## 👨‍💻 About Me
 
 ```csharp
-var sanan = new Developer
+var sanan = new SoftwareEngineer
 {
-    Name        = "Sanan Malik",
-    Role        = "Backend Developer",
-    University  = "MNS University of Agriculture, Multan",
-    Year        = "2nd Year BS Computer Science",
-    Stack       = new[] { "C#", "ASP.NET Core", "SQL Server", "ADO.NET" },
-    CurrentGoal = "A Best Developer",
-    Motto       = "I build things I'd want to maintain."
+    Name         = "Sanan Malik",
+    Focus        = "Backend Systems & Multi-Agent SecOps Architectures",
+    Specialties  = new[] { "C#", "ASP.NET Core", "Clean Architecture", "SecOps Automation" },
+    Databases    = new[] { "SQL Server", "PostgreSQL", "Redis" },
+    Methodology  = "Domain-Driven Design (DDD) & Test-Driven Development (TDD)",
+    CurrentStack = new[] { ".NET 10", "EF Core", "Next.js", "TypeScript" },
+    Motto        = "I design resilient architectures that scale and write code that documents itself."
 };
 ```
 
@@ -99,15 +99,16 @@ var sanan = new Developer
 
 <br>
 
-### 🏦 Banking System API &nbsp; ![](https://img.shields.io/badge/Portfolio-555555?style=flat-square)
+### 🛡️ SIFT Guardian &nbsp; ![](https://img.shields.io/badge/UC%20Berkeley%20AI%20Hackathon-f59e0b?style=flat-square) ![](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
 
-> Full banking backend built to practice layered architecture and OOP in a realistic production-style context. Raw SQL via ADO.NET — no ORM hiding what's actually happening.
+> Autonomous, self-correcting multi-agent incident response system designed to automate security forensics and compile intelligence advisories.
 
-- Accounts, deposits, withdrawals, transfers, and full transaction history
-- Custom exception classes — meaningful errors instead of generic 500s
-- Strict Controller → Service → Repository separation throughout
+- Multi-agent collaboration featuring Investigator, Skeptic, Verifier, and Reporter agents
+- Active self-correction loop that dynamically requests and pulls missing telemetry logs (parent processes, registry persistence keys, network traces)
+- High-fidelity interactive SecOps dashboard featuring live agent topology visualizations and real-time terminal log streaming
+- Structured markdown report generator with local export functionality
 
-`C#` · `ASP.NET Core` · `ADO.NET` · `SQL Server`
+`C#` · `ASP.NET Core` · `.NET 10.0` · `HTML5` · `CSS3` · `JavaScript` · `Mermaid`
 
 
 
@@ -117,9 +118,9 @@ var sanan = new Developer
 
 | | Goal | Target |
 |---|---|---|
-| 🔵 | .Net Developer | Ongoing |
-| 🟢 | LeetCode — consistent problem solving, Easy to Hard | Ongoing |
-| 🟡 | Research experience — treating FYP as publishable work | 2028 |
+| 🔵 | Mastering Advanced Microservices & Distributed Systems in .NET | Ongoing |
+| 🟢 | Performance Tuning & Algorithmic Optimization | Ongoing |
+| 🟡 | Designing scalable cloud-native architectures | Ongoing |
 
 ---
 
