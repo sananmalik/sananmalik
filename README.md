@@ -1,117 +1,131 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1f6feb,100:58A6FF&height=120&section=header&text=Sanan%20Malik&fontSize=42&fontColor=ffffff&fontAlignY=65&desc=Software%20Engineer%20%C2%B7%20Specializing%20in%20Backend%20&%20Distributed%20Systems&descSize=14&descAlignY=85&descColor=8b949e"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1f6feb,100:58A6FF&height=120&section=header&text=Sanan%20Malik&fontSize=42&fontColor=ffffff&fontAlignY=65&desc=Backend%20Developer%20%C2%B7%20CS%20Student%20%C2%B7%20Multan%2C%20PK&descSize=14&descAlignY=85&descColor=8b949e"/>
 
 <p>
-<a href="https://linkedin.com/in/sanan-malik-9a4412325" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<a href="https://linkedin.com/in/sanan-malik-9a4412325">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
 <a href="mailto:iamsanan50@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/%F0%9F%9F%A2_Open_to_Collaboration-161b22?style=for-the-badge" alt="Open to Collaboration"/>
+<img src="https://img.shields.io/badge/%F0%9F%9F%A2_Open_to_Opportunities-161b22?style=for-the-badge"/>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Backend+Engineer+%7C+Distributed+Systems;ASP.NET+Core+%7C+C%23+%7C+SecOps+Automation;Building+scalability+by+default+%E2%9A%A1"/>
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Building+clean%2C+reliable+backends;ASP.NET+Core+%7C+SQL+Server+%7C+C%23;Aiming+for+A+Best+Developer+%F0%9F%8E%AF"/>
+
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=sananmalik&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS)
 
 </div>
 
+<br>
+
 ---
 
-### 👨‍💻 Profile Overview
-
-I am a Backend Software Engineer focused on constructing high-performance REST APIs, designing scalable relational database architectures, and developing autonomous multi-agent AI workflows. I emphasize clean architecture, performance optimization, and strong type safety in all of my engineering projects.
+## 👨‍💻 About Me
 
 ```csharp
-var engineer = new SoftwareEngineer
+var sanan = new Developer
 {
-    Name         = "Sanan Malik",
-    Role         = "Backend Developer",
-    Focus        = "Distributed Systems & Cognitive Agent Architectures",
-    CoreStack    = new[] { "C#", "ASP.NET Core", "EF Core", "SQL Server" },
-    Principles   = new[] { "SOLID", "Clean Architecture", "TDD", "DDD" },
-    CurrentStack = new[] { ".NET 10.0", "Next.js", "Docker", "PostgreSQL", "Redis" },
-    Motto        = "Write code that is self-documenting and architectures that scale."
+    Name        = "Sanan Malik",
+    Role        = "Backend Developer",
+    University  = "MNS University of Agriculture, Multan",
+    Year        = "2nd Year BS Computer Science",
+    Stack       = new[] { "C#", "ASP.NET Core", "SQL Server", "ADO.NET" },
+    CurrentGoal = "A Best Developer",
+    Motto       = "I build things I'd want to maintain."
 };
 ```
 
 ---
 
-### 📊 GitHub Activity & Metrics
+## ⚙️ Tech Stack
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=sananmalik&show_icons=true&theme=tokyonight&count_private=true&hide_title=true&bg_color=0D1117&border_color=30363d&icon_color=58A6FF&text_color=c9d1d9" alt="Sanan's GitHub Stats" width="400" />
-      </td>
-      <td align="center" valign="top">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=sananmalik&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=f59e0b&currStreakLabel=58A6FF" alt="Sanan's Streak Stats" width="380" />
-      </td>
-    </tr>
-  </table>
+
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![ADO.NET](https://img.shields.io/badge/ADO.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
 </div>
 
 ---
 
-### ⚙️ Technologies & Expertise
+## 🚀 Featured Projects
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>💻 Languages & Frameworks</h4>
-      <ul>
-        <li><strong>Languages:</strong> C#, SQL, TypeScript, ES6 JavaScript, HTML5/CSS3</li>
-        <li><strong>Frameworks:</strong> ASP.NET Core, EF Core, ADO.NET, Next.js, React</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🛠️ Infrastructure & Methodologies</h4>
-      <ul>
-        <li><strong>Databases:</strong> SQL Server, PostgreSQL, Redis cache layer</li>
-        <li><strong>Tools & DevOps:</strong> Git/GitHub, Docker, Nginx reverse proxy, Postman</li>
-        <li><strong>Architecture:</strong> Domain-Driven Design (DDD), Clean/Layered Architecture</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+
+</div>
+
+<br>
+
+### 🌐 SentinelIQ &nbsp; ![](https://img.shields.io/badge/Phase%201%20Live-1f6feb?style=flat-square)
+
+> AI-powered enterprise intelligence platform that monitors the live web for competitor activity, market movements, and risk signals — turning raw web data into structured, actionable business intelligence.
+
+- Tracks pricing changes, product launches, hiring trends, and customer sentiment in real time
+- OpenAI integration for automatic business summaries, market insights, and risk assessments
+- Bright Data scraping pipeline — SERP API, Web Scraper, Scraping Browser
+- Layered REST API: Controller → Service → Repository, clean DTOs, custom exceptions
+
+`ASP.NET Core` · `EF Core` · `SQL Server` · `OpenAI API` · `Bright Data` · `Next.js` · `TypeScript` · `Tailwind CSS`
+
+<br>
+
+### 🧠 Cognivex AI &nbsp; ![](https://img.shields.io/badge/Deployed-22c55e?style=flat-square) ![](https://img.shields.io/badge/Vultr%20VPS-007BFC?style=flat-square)
+
+> Agent-based academic productivity platform. Analyzes uploaded assignments, extracts tasks, prioritizes workloads, and generates structured study plans through autonomous AI workflows.
+
+- Accepts PDF, image, or plain text — extracts requirements, deadlines, and subtasks automatically
+- Autonomous Planning Agent divides work, estimates effort, generates study roadmaps
+- Production deployment on Vultr VPS behind Nginx reverse proxy
+- Full pipeline: Upload → Analysis → Extraction → Prioritization → Dashboard
+
+`ASP.NET Core` · `C#` · `SQL Server` · `Google Gemini API` · `React` · `Tailwind CSS` · `Nginx`
+
+<br>
+
+### 🛡️ SIFT Guardian &nbsp; ![](https://img.shields.io/badge/UC%20Berkeley%20AI%20Hackathon-f59e0b?style=flat-square) ![](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
+
+> Autonomous, self-correcting multi-agent incident response system designed to automate security forensics and compile intelligence advisories.
+
+- Multi-agent collaboration featuring Investigator, Skeptic, Verifier, and Reporter agents
+- Active self-correction loop that dynamically requests and pulls missing telemetry logs (parent processes, registry persistence keys, network traces)
+- High-fidelity interactive SecOps dashboard featuring live agent topology visualizations and real-time terminal log streaming
+- Structured markdown report generator with local export functionality
+
+`C#` · `ASP.NET Core` · `.NET 10.0` · `HTML5` · `CSS3` · `JavaScript` · `Mermaid`
 
 ---
 
-### 🚀 Highlighted Engineering Portfolios
+## 📌 Current Focus
 
-#### 🛡️ SIFT Guardian — Multi-Agent Incident Response &nbsp; [![](https://img.shields.io/badge/Berkeley_AI_Hackathon-f59e0b?style=flat-square)](https://github.com/sananmalik/SIFTGuardian)
-> Autonomous, self-correcting incident response pipeline automating telemetry forensics and compiling markdown advisories.
-*   **Cognitive Loop:** Structured Investigator, Skeptic, Verifier, and Reporter agents working in a state-based feedback loop.
-*   **Self-Correction:** Automatically detects missing logs (like parent processes, persistence keys, or network connections) and routes back to Investigator for database re-evaluation.
-*   **Dashboard Console:** Real-time log streaming terminal and responsive topology connection map.
-*   *Stack:* `C#` · `ASP.NET Core` · `.NET 10.0` · `HTML5/CSS3/JS` · `Mermaid.js`
-
-#### 🌐 SentinelIQ — Competitor Intelligence Hub &nbsp; [![](https://img.shields.io/badge/Live_Deployment-1f6feb?style=flat-square)](https://github.com/sananmalik/SentinelIQ)
-> Enterprise market intelligence platform tracking competitor pricing, hiring trends, and product movements in real time.
-*   **Data Pipelines:** Robust web scraping integration utilizing Bright Data's SERP API and scraping browsers.
-*   **AI Synthesis:** Integrated OpenAI API layer for real-time risk assessment, data summaries, and market insights.
-*   **Clean API:** Layered REST API utilizing the Service-Repository pattern, clean DTO mapping, and global exception handlers.
-*   *Stack:* `ASP.NET Core` · `EF Core` · `SQL Server` · `OpenAI API` · `Bright Data` · `Next.js` · `TypeScript`
-
-#### 🧠 Cognivex AI — Academic Task Coordinator &nbsp; [![](https://img.shields.io/badge/Vultr_VPS-007BFC?style=flat-square)](https://github.com/sananmalik/CognivexAI)
-> Autonomous planning workspace analyzing uploaded academic documents to extract, structure, and schedule task logs.
-*   **Parsing Pipeline:** Intelligent processing of PDFs and images using the Google Gemini API to extract milestones and deadlines.
-*   **Deployment:** Production-grade architecture hosted on Vultr VPS utilizing an Nginx reverse proxy configurations.
-*   *Stack:* `ASP.NET Core` · `SQL Server` · `Google Gemini API` · `React` · `Tailwind CSS` · `Nginx`
-
----
-
-### 📌 Current Focus Areas
-*   🌐 **Distributed Systems:** Mastering advanced microservices, message queues, and performance tuning in high-throughput APIs.
-*   🧠 **Autonomous Agents:** Refining LLM-cooperated workflows and deterministic state boundaries.
-*   ⚡ **Database Efficiency:** Optimizing execution plans, indexing strategies, and raw SQL queries.
+| | Goal | Target |
+|---|---|---|
+| 🔵 | .Net Developer | Ongoing |
+| 🟢 | LeetCode — consistent problem solving, Easy to Hard | Ongoing |
+| 🟡 | Research experience — treating FYP as publishable work | 2028 |
 
 ---
 
 <div align="center">
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1f6feb,100:0D1117&height=80&section=footer"/>
-<sub><code>"Complexity is easy; simplicity is work."</code></sub>
+
+<sub><code>"I build things I'd want to maintain."</code></sub>
+
 </div>
