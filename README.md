@@ -1,131 +1,93 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1f6feb,100:58A6FF&height=120&section=header&text=Sanan%20Malik&fontSize=42&fontColor=ffffff&fontAlignY=65&desc=Backend%20Developer%20%C2%B7%20CS%20Student%20%C2%B7%20Multan%2C%20PK&descSize=14&descAlignY=85&descColor=8b949e"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=3000&color=E6EDF3&center=true&vCenter=true&width=600&height=60&lines=Sanan+Malik">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=3000&color=1a1a2e&center=true&vCenter=true&width=600&height=60&lines=Sanan+Malik" alt="Sanan Malik"/>
+</picture>
+
+<p><code>Backend Systems · AI-Integrated Platforms · MNS University of Agriculture, Multan · CS '28</code></p>
 
 <p>
-<a href="https://linkedin.com/in/sanan-malik-9a4412325">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+<a href="https://linkedin.com/in/sanan-malik-9a4412325"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
 &nbsp;
-<a href="mailto:iamsanan50@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-&nbsp;
-<img src="https://img.shields.io/badge/%F0%9F%9F%A2_Open_to_Opportunities-161b22?style=for-the-badge"/>
+<a href="mailto:iamsanan50@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
 </p>
 
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Building+clean%2C+reliable+backends;ASP.NET+Core+%7C+SQL+Server+%7C+C%23;Aiming+for+A+Best+Developer+%F0%9F%8E%AF"/>
-
-<br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=sananmalik&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS)
-
-</div>
-
-<br>
-
----
-
-## 👨‍💻 About Me
-
-```csharp
-var sanan = new Developer
-{
-    Name        = "Sanan Malik",
-    Role        = "Backend Developer",
-    University  = "MNS University of Agriculture, Multan",
-    Year        = "2nd Year BS Computer Science",
-    Stack       = new[] { "C#", "ASP.NET Core", "SQL Server", "ADO.NET" },
-    CurrentGoal = "A Best Developer",
-    Motto       = "I build things I'd want to maintain."
-};
-```
-
----
-
-## ⚙️ Tech Stack
-
-<div align="center">
-
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![ADO.NET](https://img.shields.io/badge/ADO.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Entity Framework](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
 </div>
 
 ---
 
-## 🚀 Featured Projects
+I build backend systems that connect structured data pipelines to AI inference layers. My current work sits at the intersection of REST API design, multi-agent orchestration, and production deployment — areas I'm developing toward graduate research in intelligent systems.
+
+---
+
+## Research Interests
+
+Systems that reason over incomplete or adversarial data. Specifically: how multi-agent architectures can coordinate under uncertainty, how knowledge can be extracted reliably from unstructured web sources, and how backend infrastructure can be designed to support reproducible AI pipelines.
+
+---
+
+## Selected Projects
+
+### SentinelIQ — Web Intelligence Platform
+Real-time competitor and market monitoring system. Scrapes live web sources via Bright Data, runs OpenAI inference over extracted signals, and surfaces structured business intelligence through a layered REST API.
+
+**What makes it non-trivial:** The pipeline has to be robust to inconsistent HTML structure, rate limits, and hallucination drift in summaries. I handle this through source normalization, prompt constraints, and confidence-gated output filtering.
+
+`ASP.NET Core` · `EF Core` · `SQL Server` · `OpenAI API` · `Bright Data` · `Next.js` · `TypeScript`
+
+---
+
+### SIFT Guardian — Multi-Agent Incident Response *(UC Berkeley AI Hackathon)*
+Autonomous security forensics system built around four specialized agents: Investigator, Skeptic, Verifier, and Reporter. The system runs a self-correction loop — if any agent flags missing telemetry, it requests and pulls the gap before generating a final advisory.
+
+**What makes it non-trivial:** Self-correction in agentic systems requires explicit disagreement protocols between agents. I implemented an inter-agent confidence scoring mechanism so the Skeptic can halt and redirect the Investigator mid-analysis.
+
+`C#` · `ASP.NET Core` · `.NET 10` · `JavaScript`
+
+---
+
+### Cognivex AI — Academic Workflow Agent *(Production Deployment)*
+Agent-based platform that parses uploaded academic documents, extracts tasks and deadlines, and generates structured study plans. Deployed on Vultr VPS behind Nginx.
+
+**What makes it non-trivial:** Multi-format input parsing (PDF, image, plain text) with consistent structured output requires careful prompt design and schema enforcement. Failure modes are silent — the agent must detect when it hasn't extracted enough to plan.
+
+`ASP.NET Core` · `C#` · `SQL Server` · `Gemini API` · `React` · `Nginx`
+
+---
+
+## Technical Foundation
+
+| Layer | Tools |
+|---|---|
+| Backend | C#, ASP.NET Core Web API, ADO.NET, EF Core |
+| Data | SQL Server, stored procedures, repository pattern |
+| AI Integration | OpenAI API, Gemini API, prompt engineering, agent orchestration |
+| Infrastructure | Vultr VPS, Nginx, Git |
+| Frontend | React, Next.js, TypeScript, Tailwind CSS |
+
+---
+
+## Activity
 
 <div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=sananmalik&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&hide_title=true&custom_title=&hide_rank=false" height="140"/>
+&nbsp;&nbsp;
+<img src="https://streak-stats.demolab.com?user=sananmalik&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="140"/>
 
 </div>
 
-<br>
-
-### 🌐 SentinelIQ &nbsp; ![](https://img.shields.io/badge/Phase%201%20Live-1f6feb?style=flat-square)
-
-> AI-powered enterprise intelligence platform that monitors the live web for competitor activity, market movements, and risk signals — turning raw web data into structured, actionable business intelligence.
-
-- Tracks pricing changes, product launches, hiring trends, and customer sentiment in real time
-- OpenAI integration for automatic business summaries, market insights, and risk assessments
-- Bright Data scraping pipeline — SERP API, Web Scraper, Scraping Browser
-- Layered REST API: Controller → Service → Repository, clean DTOs, custom exceptions
-
-`ASP.NET Core` · `EF Core` · `SQL Server` · `OpenAI API` · `Bright Data` · `Next.js` · `TypeScript` · `Tailwind CSS`
-
-<br>
-
-### 🧠 Cognivex AI &nbsp; ![](https://img.shields.io/badge/Deployed-22c55e?style=flat-square) ![](https://img.shields.io/badge/Vultr%20VPS-007BFC?style=flat-square)
-
-> Agent-based academic productivity platform. Analyzes uploaded assignments, extracts tasks, prioritizes workloads, and generates structured study plans through autonomous AI workflows.
-
-- Accepts PDF, image, or plain text — extracts requirements, deadlines, and subtasks automatically
-- Autonomous Planning Agent divides work, estimates effort, generates study roadmaps
-- Production deployment on Vultr VPS behind Nginx reverse proxy
-- Full pipeline: Upload → Analysis → Extraction → Prioritization → Dashboard
-
-`ASP.NET Core` · `C#` · `SQL Server` · `Google Gemini API` · `React` · `Tailwind CSS` · `Nginx`
-
-<br>
-
-### 🛡️ SIFT Guardian &nbsp; ![](https://img.shields.io/badge/UC%20Berkeley%20AI%20Hackathon-f59e0b?style=flat-square) ![](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
-
-> Autonomous, self-correcting multi-agent incident response system designed to automate security forensics and compile intelligence advisories.
-
-- Multi-agent collaboration featuring Investigator, Skeptic, Verifier, and Reporter agents
-- Active self-correction loop that dynamically requests and pulls missing telemetry logs (parent processes, registry persistence keys, network traces)
-- High-fidelity interactive SecOps dashboard featuring live agent topology visualizations and real-time terminal log streaming
-- Structured markdown report generator with local export functionality
-
-`C#` · `ASP.NET Core` · `.NET 10.0` · `HTML5` · `CSS3` · `JavaScript` · `Mermaid`
-
 ---
 
-## 📌 Current Focus
+## Current Work
 
-| | Goal | Target |
-|---|---|---|
-| 🔵 | .Net Developer | Ongoing |
-| 🟢 | LeetCode — consistent problem solving, Easy to Hard | Ongoing |
-| 🟡 | Research experience — treating FYP as publishable work | 2028 |
+- Building toward a publishable Final Year Project in intelligent systems (2025–2028)
+- Developing ML foundations: linear algebra, probability, Andrew Ng specializations, PyTorch
+- Targeting funded MS CS programs, Fall 2028 — research alignment is the primary focus
 
 ---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1f6feb,100:0D1117&height=80&section=footer"/>
-
-<sub><code>"I build things I'd want to maintain."</code></sub>
-
+<sub>Open to research collaboration and internship opportunities. Email is the fastest way to reach me.</sub>
 </div>
