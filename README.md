@@ -15,17 +15,14 @@
 
 </div>
 
----
 
 I build backend systems that connect structured data pipelines to AI inference layers. My current work sits at the intersection of REST API design, multi-agent orchestration, and production deployment — areas I'm developing toward graduate research in intelligent systems.
 
----
 
 ## Research Interests
 
 Systems that reason over incomplete or adversarial data. Specifically: how multi-agent architectures can coordinate under uncertainty, how knowledge can be extracted reliably from unstructured web sources, and how backend infrastructure can be designed to support reproducible AI pipelines.
 
----
 
 ## Selected Projects
 
@@ -36,7 +33,6 @@ Real-time competitor and market monitoring system. Scrapes live web sources via 
 
 `ASP.NET Core` · `EF Core` · `SQL Server` · `OpenAI API` · `Bright Data` · `Next.js` · `TypeScript`
 
----
 
 ### SIFT Guardian — Multi-Agent Incident Response *(UC Berkeley AI Hackathon)*
 Autonomous security forensics system built around four specialized agents: Investigator, Skeptic, Verifier, and Reporter. The system runs a self-correction loop — if any agent flags missing telemetry, it requests and pulls the gap before generating a final advisory.
@@ -45,7 +41,6 @@ Autonomous security forensics system built around four specialized agents: Inves
 
 `C#` · `ASP.NET Core` · `.NET 10` · `JavaScript`
 
----
 
 ### Cognivex AI — Academic Workflow Agent *(Production Deployment)*
 Agent-based platform that parses uploaded academic documents, extracts tasks and deadlines, and generates structured study plans. Deployed on Vultr VPS behind Nginx.
@@ -54,7 +49,6 @@ Agent-based platform that parses uploaded academic documents, extracts tasks and
 
 `ASP.NET Core` · `C#` · `SQL Server` · `Gemini API` · `React` · `Nginx`
 
----
 
 ## Technical Foundation
 
@@ -66,7 +60,6 @@ Agent-based platform that parses uploaded academic documents, extracts tasks and
 | Infrastructure | Vultr VPS, Nginx, Git |
 | Frontend | React, Next.js, TypeScript, Tailwind CSS |
 
----
 
 ## Activity
 
@@ -78,7 +71,6 @@ Agent-based platform that parses uploaded academic documents, extracts tasks and
 
 </div>
 
----
 
 ## Current Work
 
@@ -86,7 +78,6 @@ Agent-based platform that parses uploaded academic documents, extracts tasks and
 - Developing ML foundations: linear algebra, probability, Andrew Ng specializations, PyTorch
 - Targeting funded MS CS programs, Fall 2028 — research alignment is the primary focus
 
----
 
 <div align="center">
 <sub>Open to research collaboration and internship opportunities. Email is the fastest way to reach me.</sub>
