@@ -15,7 +15,6 @@ class Sanan:
     stack      = ["C#", "ASP.NET Core", "SQL Server", "EF Core"]
     ai_tools   = ["OpenAI API", "Gemini API", "Multi-Agent Systems"]
     ml_active  = ["Python", "NumPy", "PyTorch (learning)"]
-    goal       = "Funded MS CS @ USA · Fall 2028"
     building   = "AI-integrated backend systems → research"
 ```
 
@@ -29,7 +28,7 @@ class Sanan:
 🔧  Building production backend systems in C# / ASP.NET Core
 🤖  Wiring AI inference into real pipelines — not just calling APIs
 🧠  Learning ML foundations to understand what's inside the models I deploy
-🎯  Targeting funded MS CS (USA) · Fall 2028
+🎯  Targeting -
 ```
 
 ---
@@ -132,8 +131,7 @@ The research question I keep running into across all these projects:
 
 > **How do you build agentic systems that know what they don't know — and surface that uncertainty reliably instead of hallucinating confidence?**
 
-My FYP (2025–2028) goes directly at this. Targeting funded MS CS programs in the USA, Fall 2028, with research alignment as the primary filter.
-
+My FYP (2025–2028) goes directly at this. Targeting --.
 ---
 
 <div align="center">
