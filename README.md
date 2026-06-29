@@ -15,42 +15,53 @@
 
 </div>
 
+---
 
-I build backend systems that connect structured data pipelines to AI inference layers. My current work sits at the intersection of REST API design, multi-agent orchestration, and production deployment — areas I'm developing toward graduate research in intelligent systems.
+I build backend systems that connect structured data pipelines to AI inference layers. My work sits at the intersection of REST API design, multi-agent orchestration, and production deployment. I am now extending this foundation into ML — specifically, learning how to replace hand-engineered heuristics in my existing systems with trained components.
 
+---
 
 ## Research Interests
 
-Systems that reason over incomplete or adversarial data. Specifically: how multi-agent architectures can coordinate under uncertainty, how knowledge can be extracted reliably from unstructured web sources, and how backend infrastructure can be designed to support reproducible AI pipelines.
+How multi-agent architectures coordinate under uncertainty. How knowledge can be extracted reliably from unstructured web sources. How backend infrastructure can be designed to support reproducible, observable AI pipelines.
 
+These questions came directly out of building the projects below — not from reading about them.
+
+---
 
 ## Selected Projects
 
 ### SentinelIQ — Web Intelligence Platform
+
 Real-time competitor and market monitoring system. Scrapes live web sources via Bright Data, runs OpenAI inference over extracted signals, and surfaces structured business intelligence through a layered REST API.
 
-**What makes it non-trivial:** The pipeline has to be robust to inconsistent HTML structure, rate limits, and hallucination drift in summaries. I handle this through source normalization, prompt constraints, and confidence-gated output filtering.
+**The hard part:** Hallucination drift in LLM summaries compounds silently across pipeline stages. I handle this through confidence-gated output filtering — outputs below a defined threshold are flagged rather than surfaced, keeping downstream consumers from acting on degraded data.
 
 `ASP.NET Core` · `EF Core` · `SQL Server` · `OpenAI API` · `Bright Data` · `Next.js` · `TypeScript`
 
+---
 
 ### SIFT Guardian — Multi-Agent Incident Response *(UC Berkeley AI Hackathon)*
+
 Autonomous security forensics system built around four specialized agents: Investigator, Skeptic, Verifier, and Reporter. The system runs a self-correction loop — if any agent flags missing telemetry, it requests and pulls the gap before generating a final advisory.
 
-**What makes it non-trivial:** Self-correction in agentic systems requires explicit disagreement protocols between agents. I implemented an inter-agent confidence scoring mechanism so the Skeptic can halt and redirect the Investigator mid-analysis.
+**The hard part:** Self-correction in agentic systems requires explicit disagreement protocols, not just retry logic. I implemented inter-agent confidence scoring so the Skeptic can halt and redirect the Investigator mid-analysis rather than letting low-confidence signals propagate to the final report.
 
 `C#` · `ASP.NET Core` · `.NET 10` · `JavaScript`
 
+---
 
 ### Cognivex AI — Academic Workflow Agent *(Production Deployment)*
+
 Agent-based platform that parses uploaded academic documents, extracts tasks and deadlines, and generates structured study plans. Deployed on Vultr VPS behind Nginx.
 
-**What makes it non-trivial:** Multi-format input parsing (PDF, image, plain text) with consistent structured output requires careful prompt design and schema enforcement. Failure modes are silent — the agent must detect when it hasn't extracted enough to plan.
+**The hard part:** Failure modes are silent. The agent must detect when it has not extracted enough structure to produce a valid plan — and surface that explicitly — rather than generating a plausible-looking output over insufficient data. Schema enforcement and extraction confidence checks handle this.
 
 `ASP.NET Core` · `C#` · `SQL Server` · `Gemini API` · `React` · `Nginx`
 
+---
 
-## Technical Foundation
+## Technical Stack
 
 | Layer | Tools |
 |---|---|
@@ -59,26 +70,30 @@ Agent-based platform that parses uploaded academic documents, extracts tasks and
 | AI Integration | OpenAI API, Gemini API, prompt engineering, agent orchestration |
 | Infrastructure | Vultr VPS, Nginx, Git |
 | Frontend | React, Next.js, TypeScript, Tailwind CSS |
+| ML (in progress) | Python, NumPy, linear algebra, probability, Andrew Ng specializations |
 
+---
+
+## Direction
+
+My existing systems handle agent coordination and inference integration at the application layer. The open question is how learned components — classifiers, embeddings, retrieval — can replace or improve the heuristics currently doing that work.
+
+That is what I am building toward: an FYP (2025–2028) that produces a publishable result in intelligent systems, and funded MS CS admission in the USA for Fall 2028.
+
+---
 
 ## Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sananmalik&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&hide_title=true&custom_title=&hide_rank=false" height="140"/>
+<img src="https://github-readme-stats.vercel.app/api?username=sananmalik&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&hide_title=true&hide_rank=false" height="140"/>
 &nbsp;&nbsp;
 <img src="https://streak-stats.demolab.com?user=sananmalik&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="140"/>
 
 </div>
 
-
-## Current Work
-
-- Building toward a publishable Final Year Project in intelligent systems (2025–2028)
-- Developing ML foundations: linear algebra, probability, Andrew Ng specializations, PyTorch
-- Targeting funded MS CS programs, Fall 2028 — research alignment is the primary focus
-
+---
 
 <div align="center">
-<sub>Open to research collaboration and internship opportunities. Email is the fastest way to reach me.</sub>
+<sub>Open to research collaboration and internship opportunities in AI systems and backend infrastructure. Email is the fastest way to reach me.</sub>
 </div>
