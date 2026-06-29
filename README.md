@@ -1,99 +1,93 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=3000&color=E6EDF3&center=true&vCenter=true&width=600&height=60&lines=Sanan+Malik">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=3000&color=1a1a2e&center=true&vCenter=true&width=600&height=60&lines=Sanan+Malik" alt="Sanan Malik"/>
-</picture>
+# Sanan Malik
 
-<p><code>Backend Systems · AI-Integrated Platforms · MNS University of Agriculture, Multan · CS '28</code></p>
+**Backend Engineer · AI Systems · CS Undergrad @ MNS University, Multan · '28**
 
-<p>
-<a href="https://linkedin.com/in/sanan-malik-9a4412325"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-&nbsp;
-<a href="mailto:iamsanan50@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sanan-malik-9a4412325)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:iamsanan50@gmail.com)
 
 </div>
 
 ---
 
-I build backend systems that connect structured data pipelines to AI inference layers. My work sits at the intersection of REST API design, multi-agent orchestration, and production deployment. I am now extending this foundation into ML — specifically, learning how to replace hand-engineered heuristics in my existing systems with trained components.
+I build backend systems that connect structured data pipelines to AI inference layers — REST APIs, multi-agent orchestration, production deployments on real infrastructure. I am currently extending this into ML: learning how trained components can replace the heuristics I currently hand-engineer into my systems.
 
 ---
 
-## Research Interests
+## What I Work On
 
-How multi-agent architectures coordinate under uncertainty. How knowledge can be extracted reliably from unstructured web sources. How backend infrastructure can be designed to support reproducible, observable AI pipelines.
+**Backend first.** C#, ASP.NET Core Web API, EF Core, SQL Server. Layered architecture, repository pattern, ADO.NET where it matters. This is where most of my production code lives.
 
-These questions came directly out of building the projects below — not from reading about them.
+**AI integration.** OpenAI and Gemini APIs wired into backend pipelines. Prompt design, schema enforcement, output validation. Not just calling an endpoint — handling what happens when the model returns something wrong.
+
+**Multi-agent systems.** Coordinating specialized agents that check each other's work. Self-correction loops, confidence scoring, explicit disagreement protocols between agents.
+
+**ML foundations (active).** Linear algebra, probability, Andrew Ng specializations, moving toward PyTorch. Goal is to understand what is happening inside the models I am already integrating.
 
 ---
 
-## Selected Projects
+## Projects
 
 ### SentinelIQ — Web Intelligence Platform
 
-Real-time competitor and market monitoring system. Scrapes live web sources via Bright Data, runs OpenAI inference over extracted signals, and surfaces structured business intelligence through a layered REST API.
+Monitors competitors and markets in real time. Scrapes live sources via Bright Data, runs OpenAI inference over extracted signals, returns structured intelligence through a REST API.
 
-**The hard part:** Hallucination drift in LLM summaries compounds silently across pipeline stages. I handle this through confidence-gated output filtering — outputs below a defined threshold are flagged rather than surfaced, keeping downstream consumers from acting on degraded data.
+The non-obvious problem: hallucination drift compounds silently across pipeline stages. A single degraded summary poisons downstream outputs before anything flags it. I handle this with confidence-gated filtering — outputs below threshold get flagged and held, not surfaced.
 
-`ASP.NET Core` · `EF Core` · `SQL Server` · `OpenAI API` · `Bright Data` · `Next.js` · `TypeScript`
-
----
-
-### SIFT Guardian — Multi-Agent Incident Response *(UC Berkeley AI Hackathon)*
-
-Autonomous security forensics system built around four specialized agents: Investigator, Skeptic, Verifier, and Reporter. The system runs a self-correction loop — if any agent flags missing telemetry, it requests and pulls the gap before generating a final advisory.
-
-**The hard part:** Self-correction in agentic systems requires explicit disagreement protocols, not just retry logic. I implemented inter-agent confidence scoring so the Skeptic can halt and redirect the Investigator mid-analysis rather than letting low-confidence signals propagate to the final report.
-
-`C#` · `ASP.NET Core` · `.NET 10` · `JavaScript`
+`C#` `ASP.NET Core` `EF Core` `SQL Server` `OpenAI API` `Bright Data` `Next.js` `TypeScript`
 
 ---
 
-### Cognivex AI — Academic Workflow Agent *(Production Deployment)*
+### SIFT Guardian — Multi-Agent Security Forensics
 
-Agent-based platform that parses uploaded academic documents, extracts tasks and deadlines, and generates structured study plans. Deployed on Vultr VPS behind Nginx.
+Built for the UC Berkeley AI Hackathon. Four agents — Investigator, Skeptic, Verifier, Reporter — running a self-correction loop over security telemetry. If the Skeptic finds missing evidence, it halts the Investigator and pulls the gap before the report runs.
 
-**The hard part:** Failure modes are silent. The agent must detect when it has not extracted enough structure to produce a valid plan — and surface that explicitly — rather than generating a plausible-looking output over insufficient data. Schema enforcement and extraction confidence checks handle this.
+The non-obvious problem: retry logic is not the same as disagreement. I built inter-agent confidence scoring so agents can formally challenge each other mid-analysis rather than silently passing bad data forward.
 
-`ASP.NET Core` · `C#` · `SQL Server` · `Gemini API` · `React` · `Nginx`
-
----
-
-## Technical Stack
-
-| Layer | Tools |
-|---|---|
-| Backend | C#, ASP.NET Core Web API, ADO.NET, EF Core |
-| Data | SQL Server, stored procedures, repository pattern |
-| AI Integration | OpenAI API, Gemini API, prompt engineering, agent orchestration |
-| Infrastructure | Vultr VPS, Nginx, Git |
-| Frontend | React, Next.js, TypeScript, Tailwind CSS |
-| ML (in progress) | Python, NumPy, linear algebra, probability, Andrew Ng specializations |
+`C#` `ASP.NET Core` `.NET 10` `JavaScript`
 
 ---
 
-## Direction
+### Cognivex AI — Academic Workflow Agent *(Live on Vultr VPS)*
 
-My existing systems handle agent coordination and inference integration at the application layer. The open question is how learned components — classifiers, embeddings, retrieval — can replace or improve the heuristics currently doing that work.
+Parses uploaded academic documents — PDFs, images, plain text — extracts tasks and deadlines, generates structured study plans. Running behind Nginx on a VPS I manage directly.
 
-That is what I am building toward: an FYP (2025–2028) that produces a publishable result in intelligent systems, and funded MS CS admission in the USA for Fall 2028.
+The non-obvious problem: failure is silent. An agent that produces a plausible-looking plan over insufficient data is worse than one that admits it has nothing. I built extraction confidence checks that surface incomplete parses explicitly rather than letting the planning layer guess.
+
+`C#` `ASP.NET Core` `SQL Server` `Gemini API` `React` `Nginx` `Vultr`
 
 ---
 
-## Activity
+### STEMPilot AI — Adaptive Learning Platform *(DSH Hacks V1)*
 
-<div align="center">
+Identifies student knowledge gaps through quizzes, tracks performance over time, and adjusts content delivery based on results.
 
-<img src="https://github-readme-stats.vercel.app/api?username=sananmalik&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&hide_title=true&hide_rank=false" height="140"/>
-&nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com?user=sananmalik&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="140"/>
+`C#` `ASP.NET Core` `SQL Server` `React`
 
-</div>
+---
+
+## Stack
+
+```
+Backend       C#  ·  ASP.NET Core Web API  ·  ADO.NET  ·  EF Core
+Data          SQL Server  ·  Stored Procedures  ·  Repository Pattern
+AI            OpenAI API  ·  Gemini API  ·  Prompt Engineering  ·  Agent Orchestration
+Infra         Vultr VPS  ·  Nginx  ·  Git
+Frontend      React  ·  Next.js  ·  TypeScript  ·  Tailwind CSS
+ML (active)   Python  ·  NumPy  ·  Linear Algebra  ·  Andrew Ng Specializations
+```
+
+---
+
+## Where This Is Going
+
+My FYP (2025–2028) targets a publishable result in intelligent systems or multi-agent coordination. The open research question I keep running into: how do you build agentic systems that know what they do not know — and communicate that reliably instead of hallucinating confidence?
+
+Targeting funded MS CS programs in the USA, Fall 2028. Research alignment is the primary filter.
 
 ---
 
 <div align="center">
-<sub>Open to research collaboration and internship opportunities in AI systems and backend infrastructure. Email is the fastest way to reach me.</sub>
+<sub>Open to research collaboration and backend/AI internship opportunities · <a href="mailto:iamsanan50@gmail.com">iamsanan50@gmail.com</a></sub>
 </div>
