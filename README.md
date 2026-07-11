@@ -131,7 +131,6 @@ The research question I keep running into across all these projects:
 
 > **How do you build agentic systems that know what they don't know — and surface that uncertainty reliably instead of hallucinating confidence?**
 
-My FYP (2025–2028) goes directly at this. Targeting --.
 ---
 
 <div align="center">
