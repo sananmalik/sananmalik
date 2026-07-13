@@ -15,7 +15,7 @@ class Sanan:
     stack      = ["C#", "ASP.NET Core", "SQL Server", "EF Core"]
     ai_tools   = ["OpenAI API", "Gemini API", "Multi-Agent Systems"]
     ml_active  = ["Python", "NumPy", "PyTorch (learning)"]
-    building   = "AI-integrated backend systems → research"
+    building   = "AI-integrated backend systems  → research"
 ```
 
 <br clear="right"/>
